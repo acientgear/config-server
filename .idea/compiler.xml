@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-service" />
+        <module name="nuevo-service" />
+        <module name="config-service" />
+        <module name="producto-service" />
+        <module name="gateway-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-service" target="17" />
+      <module name="Eureka" target="17" />
+      <module name="eureka-service" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="nuevo" target="17" />
+      <module name="nuevo-service" target="17" />
+      <module name="Producto" target="17" />
+      <module name="producto-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Eureka" options="-parameters" />
+      <module name="Producto" options="-parameters" />
+      <module name="config-service" options="-parameters" />
+      <module name="eureka-service" options="-parameters" />
+      <module name="gateway-service" options="-parameters" />
+      <module name="nuevo" options="-parameters" />
+      <module name="nuevo-service" options="-parameters" />
+      <module name="producto-service" options="-parameters" />
+    </option>
+  </component>
+</project>
