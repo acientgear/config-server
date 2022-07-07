@@ -24,4 +24,4 @@ spring:
         - id: nuevo-service
           uri: lb://nuevo-service
           predicates:
-            - Path=/nuevo/**    
+            - Path=/precios/**    
